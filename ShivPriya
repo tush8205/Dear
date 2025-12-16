@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Happy One Month Anniversary</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, sans-serif;
+      background: linear-gradient(135deg, #ff9a9e, #fad0c4);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      color: #4a1c1c;
+    }
+    .card {
+      background: white;
+      padding: 30px;
+      border-radius: 20px;
+      max-width: 500px;
+      text-align: center;
+      box-shadow: 0 15px 40px rgba(0,0,0,0.2);
+      animation: fadeIn 2s ease;
+    }
+    h1 {
+      color: #e63946;
+      font-size: 28px;
+      margin-bottom: 10px;
+    }
+    h2 {
+      font-size: 22px;
+      margin: 15px 0;
+    }
+    p {
+      font-size: 16px;
+      line-height: 1.6;
+    }
+    .heart {
+      font-size: 40px;
+      animation: beat 1.2s infinite;
+      color: #e63946;
+      margin: 15px 0;
+    }
+    .footer {
+      margin-top: 20px;
+      font-size: 14px;
+      color: #666;
+    }
+    @keyframes beat {
+      0%, 100% { transform: scale(1); }
+      50% { transform: scale(1.2); }
+    }
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <h1>Happy One Month Marriage Anniversary</h1>
+    <h2>Dear Bayko ❤️</h2>
+    <div class="heart">💖</div>
+    <p>
+      One month ago, my life became more beautiful because of you.
+      Every smile, every moment, and every memory with you means the world to me.
+    </p>
+    <p>
+      Thank you for being my partner, my strength, and my happiness.
+      This is just the beginning of our forever.
+    </p>
+    <p><strong>I love you always. 💕</strong></p>
+    <div class="footer">
+      — With love, your husband
+    </div>
+  </div>
+</body>
+</html>
